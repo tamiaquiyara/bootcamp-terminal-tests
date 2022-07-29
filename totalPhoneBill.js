@@ -1,4 +1,5 @@
 module.exports = function totalPhoneBill(contact){
+  
     var contactString = contact.split(', ');
     var call = 0;
     var sms = 0;

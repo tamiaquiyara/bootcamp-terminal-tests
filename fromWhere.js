@@ -1,4 +1,5 @@
 module.exports = function fromWhere(regNo){
+    
     switch(regNo) {
             case "CY":
                 return "Bellville";

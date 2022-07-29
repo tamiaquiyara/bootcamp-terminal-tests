@@ -1,4 +1,5 @@
 module.exports = function countAllPaarl(regNumbers){
+  
     let counter = 0;
     var fromPaarl = regNumbers.split(",");
     for (var i=0;i<fromPaarl.length;i++) {

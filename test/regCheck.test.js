@@ -13,4 +13,3 @@ describe('This regCheck function' , function(){
         assert.equal(false,regCheck('LKG 679 EC','MP'));
     });
 });
-

@@ -61,6 +61,7 @@ var salesData3 = [
 ];
 
 module.exports = function mostProfitableDepartment(salesData){
+  
     var department = [];
 for (var i=0;i<salesData.length;i++){
      var data = salesData[i];
