@@ -1,3 +1,4 @@
+let assert = require("assert");
 var regCheck = require('../regCheck.js');
 
 describe('This regCheck function' , function(){

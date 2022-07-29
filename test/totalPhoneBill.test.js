@@ -1,3 +1,4 @@
+let assert = require("assert");
 var totalPhoneBill = require('../totalPhoneBill.js');
 
 describe('This totalPhoneBill function' , function(){

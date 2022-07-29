@@ -1,5 +1,5 @@
 module.exports = function totalPhoneBill(contact){
-  
+
     var contactString = contact.split(', ');
     var call = 0;
     var sms = 0;
@@ -15,5 +15,5 @@ module.exports = function totalPhoneBill(contact){
      return 'R' + totalBill.toFixed(2);
     
     } 
-    console.log(totalPhoneBill());
+    // console.log(totalPhoneBill());
     

@@ -1,3 +1,4 @@
+let assert = require("assert");
 var greet = require('../greet.js');
 
 describe('The greet function' , function(){

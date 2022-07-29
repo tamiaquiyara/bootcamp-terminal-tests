@@ -1,3 +1,4 @@
+let assert = require("assert");
 var countAllPaarl = require('../countAllPaarl.js');
 
 describe('This countAllPaarl function' , function(){

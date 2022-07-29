@@ -1,3 +1,4 @@
+let assert = require("assert");
 var yearsAgo = require('../yearsAgo.js');
 
 describe('This yearsAgo function' , function(){

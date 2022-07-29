@@ -1,3 +1,4 @@
+let assert = require("assert");
 var transportFee = require('../transportFee.js');
 
 describe('This transportFee function' , function(){

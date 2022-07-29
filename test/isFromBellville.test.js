@@ -1,3 +1,4 @@
+let assert = require("assert");
 var isFromBellville = require('../isFromBellville.js');
 
 describe('This isFromBellville' , function(){
@@ -11,5 +12,4 @@ describe('This isFromBellville' , function(){
 
     it('should return true if the registration number does start with CY' , function(){
         assert.equal(true, isFromBellville("CY 465"));
-    });
-});
+    });});

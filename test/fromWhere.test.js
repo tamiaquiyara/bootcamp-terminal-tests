@@ -1,3 +1,4 @@
+let assert = require("assert");
 var fromWhere = require('../fromWhere.js');
 
 describe('This fromWhere function' , function(){

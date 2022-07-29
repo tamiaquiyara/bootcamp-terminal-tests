@@ -1,5 +1,5 @@
 module.exports = function transportFee(shift){
-    
+
     switch(shift) {
            case "morning":
                return "R20";
@@ -9,4 +9,4 @@ module.exports = function transportFee(shift){
                return "free";
        } 
    }
-   console.log(transportFee("morning"));
+//    console.log(transportFee("morning"));

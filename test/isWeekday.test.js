@@ -1,3 +1,4 @@
+let assert = require("assert");
 var isWeekday = require('../isWeekday.js');
 
 describe('This isWeekday function' , function(){
