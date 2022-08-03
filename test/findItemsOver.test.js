@@ -47,4 +47,8 @@ describe('This findItemsOver function' , function(){
       it('should check a object list and return the a list of items that are higher than the threshold' , function(){
         assert.deepEqual(results3, findItemsOver(itemList3, "20"));
       });
+
+      it('should check a object list and return the a list of items that are higher than the threshold' , function(){
+        assert.deepEqual(results3, findItemsOver(itemList3, "50"));
+      });
 });
