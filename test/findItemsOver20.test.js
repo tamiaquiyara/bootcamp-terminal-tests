@@ -47,6 +47,6 @@ describe('This findItemsOver20 function' , function(){
       });
 
       it('should check a object list and return the a list of items that are over 20' , function(){
-        assert.deepEqual(results4, findItemsOver20(itemList4));
+        assert.deepEqual(results3, findItemsOver20(itemList3));
       });
 });
